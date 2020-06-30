@@ -19,8 +19,8 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
   text.match?(/^[A-Z].*\W$/) 
 end
 
-def valid_phone_number?(phone)
-  # phone.scan(/^\+[0-9]{2}/|/^\+[0-9]{2}\(0\)/|^/\(\+[0-9]{2}\)\(0\)/|/^00[0-9]{2}|^0)([0-9]{9}$/|/[0-9\-\s]{10}$/)
-phone.scan(/(\d+)-(\d+)-(\d+))/|/^([0-9\(\)\/\+ \-]*)$/)
-# binding.pry
-end 
+# def valid_phone_number?(phone)
+#   # phone.scan(/^\+[0-9]{2}/|/^\+[0-9]{2}\(0\)/|^/\(\+[0-9]{2}\)\(0\)/|/^00[0-9]{2}|^0)([0-9]{9}$/|/[0-9\-\s]{10}$/)
+# phone.scan(/(\d+)-(\d+)-(\d+))/|/^([0-9\(\)\/\+ \-]*)$/)
+# # binding.pry
+# end 
